@@ -10,7 +10,7 @@ export default function Footer() {
          
           <div className="mb-8 md:mb-0 w-[151px] h-[86.21px] top-[7211.85px] left-[103px] ml-20">
             <img
-              src="src\assets\Group 41.png"
+              src="/assets/Group 41.png"
               alt="MobuisEngine Logo"
               className=" mb-2  "
             />

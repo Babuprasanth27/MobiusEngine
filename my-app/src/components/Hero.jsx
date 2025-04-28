@@ -6,7 +6,7 @@ const Hero = () => {
 
         <div className="min-h-screen flex flex-col relative overflow-hidden"
             style={{
-                backgroundImage: "url('src/assets/0c946621b5f3753efb360ac7b231692b4a163689.png')",
+                backgroundImage: "url('/assets/0c946621b5f3753efb360ac7b231692b4a163689.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
@@ -16,7 +16,7 @@ const Hero = () => {
 
             <nav className="w-full flex justify-between items-center px-8 py-4">
                 <div className="flex items-center space-x-2">
-                    <img src="src/assets/Group 24.png" alt="Logo" className=" top-[109px] w-[250.78px] h-[49.92px] left-[113px] object-contain" />
+                    <img src="/assets/Group 41.png" alt="Logo" className=" top-[109px] w-[250.78px] h-[49.92px] left-[113px] object-contain" />
                    
                 </div>
 
@@ -96,7 +96,7 @@ const Hero = () => {
                 <div className="relative text-[#FEFEFE] w-[348px] h-[444.71px]">
 
                     <img
-                        src="src\assets\d846eedc4b275ac4f5079be1c02fd04e78826002.png"
+                        src="/assets/d846eedc4b275ac4f5079be1c02fd04e78826002.png"
                         alt="Hiring Trends"
                         className="w-[301.2px] h-[389.99px] top-[267px] left-[1259px]"
                     />

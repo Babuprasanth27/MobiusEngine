@@ -4,7 +4,7 @@ const features = [
         id: 1,
         icon: (
           <img
-            src={('src/assets/Asset 3 1.png')}
+            src={('/assets/Asset 3 1.png')}
             alt="Check Icon"
             className="w-10 h-10 object-contain"
           />
@@ -18,7 +18,7 @@ const features = [
     id: 2,
     icon:  (
         <img
-          src={('src/assets/Profile 1.png')}
+          src={('/assets/Profile 1.png')}
           alt="Check Icon"
           className="w-10 h-10 object-contain"
         />
@@ -31,7 +31,7 @@ const features = [
     id: 3,
     icon:  (
         <img
-          src={('src/assets/Star 1.png')}
+          src={('/assets/Star 1.png')}
           alt="Check Icon"
           className="w-10 h-10 object-contain"
         />

@@ -10,18 +10,18 @@ const AboutUs = () => {
             </h2>
     
             <div className="flex flex-col md:flex-row items-center gap-6 max-w-5xl w-full mb-16">
-                {/* Image and LinkedIn */}
+              
                 <div className="flex flex-col md:flex-row items-center gap-6 max-w-5xl ">
-                    {/* Image and LinkedIn */}
+                   
                     <div className="relative">
                         <img
-                            src="src\assets\abcdb8cfe59727b23f8e75f55fc50cd36fbe67ac.png" // Replace with your Nicole image
+                            src="/assets/abcdb8cfe59727b23f8e75f55fc50cd36fbe67ac.png" 
                             alt="Nicole"
                             className="w-[42rem] h-[15rem]  rounded-full border-4 border-white bg-white"
                         />
                         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                             <div className="w-[5rem] h-[5rem] border-2 border-white  bg-[#d9d9d928]  opacity-[13.61]  backdrop-blur-lg p-4 rounded-full flex items-center justify-center absolute bottom-0 right-0 shadow-md ">
-                                <img src="src\assets\Shape.png" className="w-[31.32px] h-[29.9px] top-[1883.35px] left-[705.71px]"></img>
+                                <img src="/assets/Shape.png" className="w-[31.32px] h-[29.9px] top-[1883.35px] left-[705.71px]"></img>
                             </div>
 
                         </a>
@@ -44,20 +44,20 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            {/* Team Member 2 */}
+            
             <div className="flex flex-col md:flex-row items-center gap-6 max-w-5xl w-full mb-16">
-                {/* Image and LinkedIn */}
+              
                 <div className="flex flex-col md:flex-row items-center gap-6 max-w-5xl ">
-                    {/* Image and LinkedIn */}
+                  
                     <div className="relative">
                         <img
-                            src="src\assets\7dcf99fa2301e245f611001fe0e067a86dbcc88c.png" // Replace with your Nicole image
+                            src="/assets/7dcf99fa2301e245f611001fe0e067a86dbcc88c.png" 
                             alt="Nicole"
                             className="w-[42rem] h-[15rem]  rounded-full border-4 border-white bg-white"
                         />
                         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                             <div className="w-[5rem] h-[5rem] border-2 border-white  bg-[#d9d9d928]  opacity-[13.61]  backdrop-blur-lg p-4 rounded-full flex items-center justify-center absolute bottom-0 right-0 shadow-md ">
-                                <img src="src\assets\Shape.png" className="w-[31.32px] h-[29.9px] top-[1883.35px] left-[705.71px]"></img>
+                                <img src="/assets/Shape.png" className="w-[31.32px] h-[29.9px] top-[1883.35px] left-[705.71px]"></img>
                             </div>
 
                         </a>
@@ -78,7 +78,7 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            {/* Bottom Links */}
+           
             <div className="text-white mt-1 text-sm flex flex-col ">
                 <a href="#" className="hover:underline" style={{fontWeight:"500", fontSize:"17.24px", lineHeight:"115%" , letterSpacing: '0%', fontFamily:'DM Sans'}}>Learn more about our Board of Advisors ↗</a>
                 <a href="#" className="hover:underline" style={{fontWeight:"500", fontSize:"17.24px", lineHeight:"115%" , letterSpacing: '0%', fontFamily:'DM Sans'}}>Follow us on our LinkedIn page ↗</a>
