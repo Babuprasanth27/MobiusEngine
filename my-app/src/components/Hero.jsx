@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutUs from './AboutUs';
+import bg from "../../public/assets/0c946621b5f3753efb360ac7b231692b4a163689.png"
 import { Link } from 'react-scroll';
 const Hero = () => {
     return (
